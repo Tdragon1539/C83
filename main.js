@@ -22,8 +22,8 @@ var last_position_of_x, last_position_of_y;
     function my_touchstart(e)
     {
         //Addictonal Activity start
-        color = document.getElementById("color").value;
-        width_of_line = document.getElementById("width_of_line").value;
+       // color = document.getElementById("color").value;
+        //width_of_line = document.getElementById("width_of_line").value;
         //Addictonal Activity ends
         last_position_of_x = e.touches[0].clientX - canvas.offsetLeft;
         last_position_of_y = e.touches[0].clientY - canvas.offsetTop;
